@@ -1,9 +1,40 @@
 import React from 'react'
-
-const home = () => {
+import home_bg from "../Assets/Home/cover_img_free_chat.png";
+import Navbar from '../Components/Common/Navbar';
+import SectionOne from '../Components/Home/SectionOne';
+import SectionTwo from '../Components/Home/SectionTwo';
+import SectionThree from '../Components/Home/SectionThree';
+import SectionFour from '../Components/Home/SectionFour';
+import SectionFive from '../Components/Home/SectionFive';
+import SectionSix from '../Components/Home/SectionSix';
+import SectionSeven from '../Components/Home/SectionSeven';
+import SectionEight from '../Components/Home/SectionEight';
+import SectionNine from '../Components/Home/SectionNine';
+import SectionTen from '../Components/Home/SectionTen';
+import Footer from '../Components/Common/Footer';
+const Home = () => {
   return (
-    <div>home</div>
+    <div>
+        <img className='absolute w-[100vw] h-[85vh]' src={home_bg} alt="" />
+        <div className='w-[990px] flex flex-col justify-center item-center mx-auto'>
+          <Navbar/>
+          <SectionOne/>
+          <SectionTwo />
+          <SectionThree/>
+          <SectionFour/>
+          <SectionFive/>
+          <SectionSix/>
+          <SectionSeven/>
+          <SectionEight/>
+          <SectionNine/>
+          <SectionTen/>
+        </div>
+        <div classname="w-[100%] bg-[#34495e]">
+        <Footer/>
+        </div>
+        
+    </div>
   )
 }
 
-export default home
+export default Home
