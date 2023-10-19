@@ -1,4 +1,5 @@
 import React from "react";
+import HorizontalSwiper from "./HorizontalSwiper";
 
 const SectionSeven = () => {
   return (
@@ -10,7 +11,8 @@ const SectionSeven = () => {
         <p className="text-3xl font-md font-sans">
           Matched By <span className="text-[#d9475c]">Jeevansathi</span>
         </p>
-      </div>
+      </div>  
+      <HorizontalSwiper/>
     </div>
   );
 };

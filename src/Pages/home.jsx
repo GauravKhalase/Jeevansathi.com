@@ -15,7 +15,7 @@ import Footer from '../Components/Common/Footer';
 const Home = () => {
   return (
     <div>
-        <img className='absolute w-[100vw] h-[85vh]' src={home_bg} alt="" />
+        <img className='absolute z-0 w-[100vw] h-[650px]' src={home_bg} alt="" />
         <div className='w-[990px] flex flex-col justify-center item-center mx-auto'>
           <Navbar/>
           <SectionOne/>
@@ -28,11 +28,9 @@ const Home = () => {
           <SectionEight/>
           <SectionNine/>
           <SectionTen/>
+          
         </div>
-        <div classname="w-[100%] bg-[#34495e]">
         <Footer/>
-        </div>
-        
     </div>
   )
 }

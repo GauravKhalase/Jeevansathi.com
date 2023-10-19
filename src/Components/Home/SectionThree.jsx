@@ -4,6 +4,7 @@ import ImageOne from "../../Assets/Home/match-hour.svg";
 import ImageTwo from "../../Assets/Home/voice-call.svg";
 import ImageThree from "../../Assets/Home/video-profile.svg";
 import CardTwo from '../Home/CardTwo'
+import VerticalSwiper from "./VerticalSwiper";
 
 const SectionThree = () => {
   return (
@@ -21,6 +22,7 @@ const SectionThree = () => {
           <CardTwo />
         </div>
         <div>
+          <VerticalSwiper />
           <img src={ImageOne} alt="" />
           {/* <img src={ImageTwo} alt="" /> */}
           {/* <img src={ImageThree} alt="" /> */}

@@ -2,7 +2,7 @@ import React from "react";
 
 const SectionOne = () => {
   return (
-    <div className="relative mt-2 mb-[40px]">
+    <div className="relative mt-[70px] mb-[40px] z-20">
       <div className="flex flex-row justify-between">
         <div className="flex flex-col justify-end text-white">
           <p className="font-serif font-bold text-5xl py-2">
