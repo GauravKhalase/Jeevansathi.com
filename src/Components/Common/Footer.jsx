@@ -10,7 +10,7 @@ import { BiLogoFacebookSquare } from "react-icons/bi";
 const Footer = () => {
   return (
     <div>
-      <div className="w-[100vw] bg-[#34495e] flex flex-col justify-center items-center">
+      <div className="w-[100%] bg-[#34495e] flex flex-col justify-center items-center">
         <div className="w-[990px]  text-gray-100 flex flex-row justify-between p-[30px] ">
           <div className="">
             <p className="text-lg font-semibold pb-2">Explore</p>
@@ -73,7 +73,7 @@ const Footer = () => {
         <div></div>
       </div>
 
-      <div className="w-[100vw] flex flex-row justify-center items-center bg-[#2e4154] text-white text-2xl font-semibold p-6">
+      <div className="w-[100%] flex flex-row justify-center items-center bg-[#2e4154] text-white text-2xl font-semibold p-6">
         <div className="flex flex-row justify-between items-center w-[990px]">
           <div>
             <p className="text-sm mb-1">App available on</p>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SectionOne = () => {
   return (
@@ -54,9 +55,11 @@ const SectionOne = () => {
                 type="text"
               />
             </label>
+            <Link to="/registration/profile-details">
             <button className="w-full h-[37px] bg-[#d9475c] font-thin rounded-sm">
               Register Free
             </button>
+            </Link>
             <div>
               By clicking on 'Register Free', you confirm that you accept the{" "}
               <span className="text-[#d9475c]">Terms of Use</span>

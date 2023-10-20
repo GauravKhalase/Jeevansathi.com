@@ -11,13 +11,12 @@ import SectionSeven from '../Components/Home/SectionSeven';
 import SectionEight from '../Components/Home/SectionEight';
 import SectionNine from '../Components/Home/SectionNine';
 import SectionTen from '../Components/Home/SectionTen';
-import Footer from '../Components/Common/Footer';
 const Home = () => {
   return (
     <div>
-        <img className='absolute z-0 w-[100vw] h-[650px]' src={home_bg} alt="" />
+        <img className='absolute z-0 w-[100%] h-[622px]' src={home_bg} alt="" />
         <div className='w-[990px] flex flex-col justify-center item-center mx-auto'>
-          <Navbar/>
+          <Navbar margin={"top-0"}/>
           <SectionOne/>
           <SectionTwo />
           <SectionThree/>
@@ -28,9 +27,8 @@ const Home = () => {
           <SectionEight/>
           <SectionNine/>
           <SectionTen/>
-          
         </div>
-        <Footer/>
+        
     </div>
   )
 }

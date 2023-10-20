@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import logo from "../../Assets/Common/desktopLogo.svg";
 import { BiChevronDown } from "react-icons/bi";
 import { BsChevronRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({margin}) => {
   const [isShown, setIsShown] = useState(false);
   const [isSearchShown, setIsSearchShown] = useState(false);
 
@@ -19,7 +20,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className=" fixed top-0 z-50 w-[990px] h-[64px] bg-[#334759] mx-auto flex flex-row justify-between ">
+    <div className={`fixed ${margin} z-50 w-[990px] h-[64px] bg-[#334759] mx-auto flex flex-row justify-between `}>
       <div className="flex flex-row justify-between gap-8">
         <div className="w-[165px] bg-white flex justify-center items-center ">
           <img className="h-[64px] m-auto" src={logo} alt="" />
@@ -92,7 +93,9 @@ const Navbar = () => {
             </div>
           </div>
           
-          <div>Help</div>
+          <Link to="/help"><div>Help</div>
+          </Link>
+          
         </div>
       </div>
       <div className="flex justify-center items-center px-[50px] text-white text-sm font-medium uppercase sans-serif">
