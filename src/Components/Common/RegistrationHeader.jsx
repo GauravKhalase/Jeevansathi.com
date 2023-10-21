@@ -8,7 +8,7 @@ const RegistrationHeader = () => {
   return (
     <div>    <div className=" bg-[#e7e6e6] h-[190px] ">
     <img
-      className="z-0 fixed w-[100vw] h-[190px] backdrop-blur-sm "
+      className="z-20 fixed w-[100vw] h-[190px] backdrop-blur-sm "
       src={bg}
       alt=""
     />
@@ -16,7 +16,7 @@ const RegistrationHeader = () => {
     <div className="w-[990px] flex flex-col justify-center item-center mx-auto">
       <RegistrationNavbar />
       <div className=" z-50 flex flex-row justify-center mt-[135px] text-gray-400 text-[16px] font-medium ">
-          <div className="w-[800px] flex flex-row justify-center border-b-[1px] border-gray-400 pb-[10px]">
+          <div className="fixed w-[800px] flex flex-row justify-center border-b-[1px] border-gray-400 pb-[10px]">
               <Link to="/registration/profile-details">
               <div className="mx-[70px]">Profile Details</div>
               </Link>
