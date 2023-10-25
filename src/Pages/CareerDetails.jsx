@@ -156,7 +156,7 @@ const CareerDetails = () => {
             <div className="">
               <form className="flex flex-col item-center gap-8" action="">
                 <textarea
-                  className="w-[500px] h-[150px] rounded-sm text-black text-sm border-[1px] border-gray-300 px-4"
+                  className="w-[500px] h-[150px] rounded-sm text-black text-sm border-[1px] border-gray-300 px-4 pt-2"
                   placeholder="Express Yourself!"
                   name=""
                   id=""
