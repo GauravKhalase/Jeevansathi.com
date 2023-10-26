@@ -5,7 +5,7 @@ const RegistrationNavbar = () => {
   return (
     <div>
       <div
-        className={`fixed top-9 z-50 w-[990px] h-[64px] bg-[#383d57] mx-auto flex flex-row justify-between `}
+        className={`relative top-9 z-50 w-[990px] h-[64px] bg-[#36495c] mx-auto flex flex-row justify-between `}
         
       >
         <div className="flex flex-row justify-between gap-8">

@@ -107,7 +107,7 @@ const ProfileDetails = () => {
                   placeholder=""
                 />
               </label>
-              <Link to="/registration/career-details"><button className="bg-[#d9475c] text-white w-[200px] h-[50px] text-xl">Continue</button></Link>
+              <Link to="/registration/career-details"><button className="bg-[#d9475c] text-white mr-[300px] w-[200px] h-[50px] text-xl">Continue</button></Link>
               
             </form>
           </div>
