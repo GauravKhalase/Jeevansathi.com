@@ -1,22 +1,22 @@
 export const NavbarThree = [
   {
     name: "MACHES",
-    link: "",
+    link: "/dashboard/matches",
   },
   {
     name: "ACTIVITY",
-    link: "",
+    link: "/dashboard/activity",
   },
   {
     name: "SEARCH",
-    link: "",
+    link: "/dashboard/search",
   },
   {
     name: "UPGRADE",
-    link: "",
+    link: "/upgrade",
   },
   {
     name: "HELP",
-    link: "",
+    link: "/help",
   },
 ];

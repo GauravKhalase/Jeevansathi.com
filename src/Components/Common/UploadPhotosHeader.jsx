@@ -15,13 +15,6 @@ const UploadPhotosHeader = ({ header }) => {
 
         <div className="w-[990px] flex flex-col justify-center item-center mx-auto">
           <NavbarThree />
-          <div className=" absolute z-50  flex flex-row justify-center mt-[240px]  text-[16px] font-medium ">
-            <div className=" w-[990px] flex flex-row justify-center item-center">
-              <p className=" text-[20px] text-gray-100 font-thin tracking-wide">
-                Smile Please!
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </div>

@@ -11,6 +11,9 @@ import SectionSeven from '../Components/Home/SectionSeven';
 import SectionEight from '../Components/Home/SectionEight';
 import SectionNine from '../Components/Home/SectionNine';
 import SectionTen from '../Components/Home/SectionTen';
+import Footer from '../Components/Common/Footer';
+
+
 const Home = () => {
   return (
     <div>
@@ -28,7 +31,7 @@ const Home = () => {
           <SectionNine/>
           <SectionTen/>
         </div>
-        
+        <Footer/>
     </div>
   )
 }
