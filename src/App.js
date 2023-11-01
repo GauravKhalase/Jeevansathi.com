@@ -34,7 +34,7 @@ function App() {
         <Route path="/dashboard/messenger" element={<Dashboard/>} />
         <Route path="/astrology-services" element={<AstrologyServices/>} />
         <Route path="/upgrade" element={<Upgrade/>} />
-        <Route path="/setting" element={<Setting/>} />
+        <Route path="dashboard/setting" element={<Setting/>} />
         <Route path="/refer-and-earn" element={<ReferAndEarn/>} />
       </Routes>
     </div>
