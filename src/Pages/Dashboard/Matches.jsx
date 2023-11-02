@@ -12,7 +12,7 @@ import { GrMailOption } from "react-icons/gr";
 
 const Matches = () => {
   return (
-    <div className="relative top-[98px] w-[650px] bg-white border-[0.5px] border-gray-200 rounded-lg flex flex-col justify-center items-center mb-32">
+    <div className="relative w-[650px] bg-white border-[0.5px] border-gray-200 rounded-lg flex flex-col justify-center items-center">
       <CarouselDefault />
       <div className="fixed bottom-6 z-50 w-[600px] flex flex-row justify-around items-center bg-[#d8465c] py-4 rounded-lg text-white">
         <div className="flex flex-col justify-center items-center gap-2 w-[100px]"> 

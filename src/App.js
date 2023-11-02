@@ -10,15 +10,19 @@ import DesiredPartnerProfile from "./Pages/DesiredPartnerProfile";
 import UploadPhotos from "./Pages/UploadPhotos";
 import AstrologyServices from "./Pages/AstrologyServices"
 import Upgrade from "./Pages/Upgrade"
-import Setting from "./Pages/Setting"
+import Settings from "./Pages/Dashboard/Settings"
 import ReferAndEarn from "./Pages/ReferAndEarn"
 import Dashboard from "./Pages/Dashboard/Dashboard";
+import SuccessStories from "./Pages/SuccessStories"
+import BlockedProfiles from "./Pages/Dashboard/BlockedProfiles"
+import Notifications from "./Pages/Dashboard/Notifications"
+import Phonebook from "./Pages/Dashboard/Phonebook"
 
 
 function App() {
   return (
-    <div className="App ">
-      <Routes>
+    <div className="App min-h-screen">
+      <Routes> 
         <Route path="/" element={<Home />} />
         <Route path="/help" element={<Help />} />
         <Route path="/registration/profile-details" element={<ProfileDetails />} />
@@ -26,16 +30,19 @@ function App() {
         <Route path="/registration/lifestyle-and-family" element={<LifestyleAndFamily />} />
         <Route path="/registration/desired-partner-profile" element={<DesiredPartnerProfile/>} />
         <Route path="/registration/upload-photos" element={<UploadPhotos/>} />
-        <Route path="/dashboard/my-profile" element={<UploadPhotos/>} />
-        <Route path="/dashboard/desired-partner-profile" element={<UploadPhotos/>} />
+        <Route path="/dashboard/profile" element={<Dashboard/>} />
         <Route path="/dashboard/matches" element={<Dashboard/>} />
         <Route path="/dashboard/activity" element={<Dashboard/>} />
         <Route path="/dashboard/search" element={<Dashboard/>} />
         <Route path="/dashboard/messenger" element={<Dashboard/>} />
-        <Route path="/astrology-services" element={<AstrologyServices/>} />
+        <Route path="/dashboard/settings" element={<Settings/>} />
+        <Route path="/dashboard/blocked-profiles" element={<BlockedProfiles/>} />
+        <Route path="/dashboard/notifications" element={<Notifications/>} />
+        <Route path="/dashboard/Phonebook" element={<Phonebook/>} />
         <Route path="/upgrade" element={<Upgrade/>} />
-        <Route path="dashboard/setting" element={<Setting/>} />
+        <Route path="/astrology-services" element={<AstrologyServices/>} />
         <Route path="/refer-and-earn" element={<ReferAndEarn/>} />
+        <Route path="/success-stories" element={<SuccessStories/>} />
       </Routes>
     </div>
   );

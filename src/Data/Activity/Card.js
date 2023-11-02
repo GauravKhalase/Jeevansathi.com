@@ -19,12 +19,4 @@ export const Card = [
     number: "00",
     text: "Declined Interests",
   },
-  {
-    number: "00",
-    text: "Filtered Interests",
-  },
-  {
-    number: "00",
-    text: "Filtered Interests",
-  },
 ];

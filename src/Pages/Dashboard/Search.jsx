@@ -1,11 +1,13 @@
 import React, { useState } from "react";
+import SearchByCriteria from "../../Components/Search/SearchByCriteria";
+import SearchByProfileID from "../../Components/Search/SearchByProfileID";
 
 const Search = () => {
   const [active, setActive] = useState(true);
 
   return (
-    <div className="relative top-[98px] w-[650px] bg-white rounded-lg flex flex-col justify-center items-center pt-6 pb-[400px]">
-      <div className="w-full flex flex-row justify-center items-end gap-4  border-b-[0.5px] border-gray-200 ">
+    <div className="relative w-[650px] bg-white rounded-lg flex flex-col justify-center items-center pb-[0px] shadow-md">
+      <div className="fixed z-50 bg-white top-24 w-[650px] flex flex-row justify-center items-end gap-4  border-b-[0.5px] border-gray-200 pt-6">
         <button
           onClick={() => setActive(true)}
           className={`text-sm font-sans font-semibold tracking-wide py-2 px-1 border-b-[3px] ${
@@ -23,16 +25,10 @@ const Search = () => {
           Search by Profile ID
         </button>
       </div>
-
-      <div className="mt-10">
-        <label htmlFor="">
-          <input className="w-[400px] h-[50px] rounded-none" type="text" placeholder="Enter Profile ID" />
-        </label>
+      <div className="z-20">
+      {active ? <SearchByCriteria /> : <SearchByProfileID />}
       </div>
-
-      <div className="fixed text-sm font-sans font-semibold tracking-wide bottom-6 z-50 w-[600px] text-center bg-[#d8465c] py-3 rounded-lg text-white">
-        Show Me Profiles
-      </div>
+      
     </div>
   );
 };

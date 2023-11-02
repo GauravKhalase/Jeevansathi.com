@@ -15,12 +15,12 @@ const Dashboard = () => {
   console.log(token);
 
   return (
-    <div className={`bg-[#f6f7fa] h-full ${menu ? "" : ""}`}>
+    <div className={`bg-[#f6f7fa] min-h-screen pb-32 ${menu ? "" : ""}`}>
       <ProfileNavbar menu={menu} setMenu={setMenu} />
 
       <div
         onClick={() => setMenu(false)}
-        className=" max-w-[1250px] mx-auto flex flex-row gap-6"
+        className=" relative top-24 max-w-[1250px] mx-auto flex flex-row gap-6"
       >
         <LeftSideCard />
         <div>
@@ -29,7 +29,6 @@ const Dashboard = () => {
           {token === "search" ? <Search /> : <div></div>}
           {token === "messenger" ? <Messanger /> : <div></div>}
         </div>
-
         <UpgradeCard />
       </div>
     </div>
