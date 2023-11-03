@@ -1,8 +1,7 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import "./styles.css";
 import { Navigation } from "swiper/modules";
 
 import { FiFilter } from "react-icons/fi";
@@ -27,7 +26,7 @@ export function CarouselDefault() {
             <div className="flex flex-row items-center justify-start px-4 py-3 gap-2">
               <button className="flex flex-row justify-center items-center gap-2 px-4 py-2 border-[0.5px] border-gray-300 text-gray-700  text-sm  font-medium tracking-wide font-sans rounded-full">
                 <span>
-                  <FiFilter color="#d8465c" />
+                  <FiFilter color="#d8465c"/>
                 </span>
                 Filters
               </button>
@@ -43,7 +42,7 @@ export function CarouselDefault() {
             </div>
             <div className="relative w-full h-[360px]">
               <img className="absolute" src={Dummy} alt="" />
-              <div className="absolute flex flex-row gap-4 text-white top-5 right-0 mx-4 ">
+              <div className="absolute flex flex-row gap-4 text-white top-5 right-0 mx-8 ">
                 <div className="p-2 bg-black rounded-full bg-opacity-50">
                   <BiPhotoAlbum />
                 </div>
@@ -51,8 +50,8 @@ export function CarouselDefault() {
                   <BsThreeDotsVertical />
                 </div>
               </div>
-              <div className="absolute text-left text-white bottom-0 mx-4">
-                <div className="my-4">
+              <div className="absolute text-left text-white bottom-0 mx-8">
+                <div className="my-4 flex flex-col gap-1">
                   <p className="text-sm font-sans font-normal tracking-wide">
                     Last seen on 30-0ct-23
                   </p>

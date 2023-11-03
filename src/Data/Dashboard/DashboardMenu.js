@@ -1,31 +1,31 @@
 export const DashboardMenu = [
     {
       name: "Partner Preferences",
-      link: "",
+      link: "/dashboard/profile",
     },
     {
       name: "Blocked/Ignored Profiles",
-      link: "",
+      link: "/dashboard/blocked-profiles",
     },
     {
       name: "Astrology Services",
-      link: "",
+      link: "/astrology-services",
     },
     {
       name: "Phonebook",
-      link: "",
+      link: "/dashboard/Phonebook",
     },
     {
       name: "Account & Settings",
-      link: "",
+      link: "/dashboard/settings",
     },
     {
       name: "Help & Support",
-      link: "",
+      link: "/help",
     },
     {
       name: "Success Stories",
-      link: "",
+      link: "/success-stories",
     },
     {
       name: "Video tour",

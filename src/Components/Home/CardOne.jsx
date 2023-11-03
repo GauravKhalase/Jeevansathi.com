@@ -1,5 +1,4 @@
 import React from "react";
-import ImageOne from "../../Assets/Home/1.png";
 import { BringTogether } from "../../Data/BringTogether";
 
 const Card = ({ cardData }) => {

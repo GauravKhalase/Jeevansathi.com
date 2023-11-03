@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import RegistrationHeader from "../Components/Common/RegistrationHeader";
-import { WhyRegister } from "../Data/Registration/WhyRegister";
 import { Link } from "react-router-dom";
 
 const CareerDetails = () => {

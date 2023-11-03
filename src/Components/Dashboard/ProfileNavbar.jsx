@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Logo from "../../Assets/Dashboard/Logo.png";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBell } from "react-icons//bi";
@@ -19,8 +19,12 @@ const ProfileNavbar = ({ menu, setMenu }) => {
             </Link>
           </div>
           <div className="flex flex-row justify-center items-center gap-9 text-[22px] font-thin text-gray-500">
+            <Link to="/dashboard/profile">
             <AiOutlineUser />
-            <BiBell />
+
+            </Link>
+            <Link to="/dashboard/notifications"><BiBell /></Link>
+            
             <div onClick={() => setMenu(true)} className="px-2 py-2">
               <HiOutlineMenuAlt3 />
             </div>
@@ -39,7 +43,10 @@ const ProfileNavbar = ({ menu, setMenu }) => {
           <div className="">
             <p className="text-xl font-bold text-gray-700 pb-1">Hi Gaurav!</p>
             <p className="text-xs font-semibold text-gray-500">
-              VRVY1121 <span className="text-[#d8465c]"> Edit Profile</span>
+              VRVY1121
+              <span onClick={()=>setMenu(false)} className="text-[#d8465c]">
+                <Link to="/dashboard/profile">{" "}Edit Profile</Link>
+              </span>
             </p>
           </div>
         </div>
@@ -47,11 +54,13 @@ const ProfileNavbar = ({ menu, setMenu }) => {
           <p className="text-gray-500 tracking-wide font-semibold text-center pb-2">
             Flat 61% OFF till 31 Oct
           </p>
-          <button className="flex flex-row justify-center items-center gap-2 text-white text-normal font-semibold tra bg-[#d8465c] rounded-lg mx-auto w-full tracking-wide py-2.5">
-            Upgrade Membership
-          </button>
+          <Link to="/upgrade">
+            <button className="flex flex-row justify-center items-center gap-2 text-white text-normal font-semibold tra bg-[#d8465c] rounded-lg mx-auto w-full tracking-wide py-2.5">
+              Upgrade Membership
+            </button>
+          </Link>
         </div>
-        <div className="flex flex-col justify-center py-2">
+        <div onClick={()=>setMenu(false)} className="flex flex-col justify-center py-2">
           {DashboardMenu.map((ele, index) => {
             return (
               <Link to={ele.link}>
@@ -66,9 +75,11 @@ const ProfileNavbar = ({ menu, setMenu }) => {
             );
           })}
         </div>
-        <div className="absolute py-6 text-sm font-[700] text-gray-600 tracking-wide">
-          Logout
-        </div>
+        <Link to="/">
+          <div className="absolute py-6 text-sm font-[700] text-gray-600 tracking-wide">
+            Logout
+          </div>
+        </Link>
       </div>
     </div>
   );

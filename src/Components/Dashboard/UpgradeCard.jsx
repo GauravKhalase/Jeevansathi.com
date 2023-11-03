@@ -4,6 +4,7 @@ import ImageTwo from "../../Assets/Dashboard/2.png";
 import ImageThree from "../../Assets/Dashboard/3.png";
 import ImageFour from "../../Assets/Dashboard/4.png";
 import {AiOutlineArrowRight} from "react-icons/ai"
+import { Link } from "react-router-dom";
 
 const UpgradeCard = () => {
   return (
@@ -40,7 +41,8 @@ const UpgradeCard = () => {
       </div>
       <div>
         <p className="text-gray-600 tracking-wide font-semibold text-center pb-2">Flat 61% OFF till 31 Oct</p>
-        <button className="flex flex-row justify-center items-center gap-2 text-white text-base font-semibold tra bg-[#d8465c] rounded-lg mx-auto w-full py-2">Upgrade now <AiOutlineArrowRight/></button>
+        <Link to="/upgrade"><button className="flex flex-row justify-center items-center gap-2 text-white text-base font-semibold tra bg-[#d8465c] rounded-lg mx-auto w-full py-2">Upgrade now <AiOutlineArrowRight/></button></Link>
+        
       </div>
     </div>
   );

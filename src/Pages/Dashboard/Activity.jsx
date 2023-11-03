@@ -6,7 +6,7 @@ import image from "../../Assets/Dashboard/ProfileImage.png";
 
 const Activity = () => {
   return (
-    <div className="relative overflow-hidden w-[650px] bg-white rounded-lg flex flex-col justify-center items-start  pb-[400px]">
+    <div className="overflow-hidden pb-[400px]">
       {/* overflow-x-scroll no-scrollbar */}
       <div className="flex flex-row text-[#768493] gap-4 py-10 px-4">
         {Card.map((element, index) => {

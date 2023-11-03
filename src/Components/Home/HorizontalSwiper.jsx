@@ -4,10 +4,6 @@ import Two from '../../Assets/Home/431905599-1609315231.jpg'
 import Three from '../../Assets/Home/434936665-1610092888.jpg'
 import Four from '../../Assets/Home/434937711-1610092902.jpg'
 import Five from '../../Assets/Home/439134849-1611216077.jpg'
-import Six from '../../Assets/Home/446550895-1613289629.jpg'
-import Seven from '../../Assets/Home/449727411-1614153606.jpg'
-import Eight from '../../Assets/Home/452807301-1615017670.jpg'
-import Nine from '../../Assets/Home/453354629-1615190452.jpg'
 
 const HorizontalSwiper = () => {
   return (

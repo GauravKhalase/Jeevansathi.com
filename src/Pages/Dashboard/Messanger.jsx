@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Messanger = () => {
   const [active, setActive] = useState(0);
   return (
-    <div className="relative w-[650px] h-[600px] bg-white rounded-lg shadow-md">
+    <div className="h-[600px] flex flex-col justify-center items-center">
       <div className="fixed z-50 bg-white top-24 w-[650px]   border-b-[0.5px] border-gray-200 pt-6 px-8">
         <p className="text-gray-700 text-xl font-sans font-bold tracking-wide ">
           Education

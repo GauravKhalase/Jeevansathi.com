@@ -6,7 +6,7 @@ const Search = () => {
   const [active, setActive] = useState(true);
 
   return (
-    <div className="relative w-[650px] bg-white rounded-lg flex flex-col justify-center items-center pb-[0px] shadow-md">
+    <div className="flex flex-col justify-center items-center">
       <div className="fixed z-50 bg-white top-24 w-[650px] flex flex-row justify-center items-end gap-4  border-b-[0.5px] border-gray-200 pt-6">
         <button
           onClick={() => setActive(true)}

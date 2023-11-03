@@ -1,11 +1,11 @@
 export const Profile = [
     {
       name: "My Profile",
-      link: "/dashboard/my-profile",
+      link: "/dashboard/profile",
     },
     {
       name: "Desired Partner Profile",
-      link: "/dashboard/desired-partner-profile",
+      link: "/dashboard/profile",
     },
     {
       name: "Astrology Services",
@@ -16,8 +16,8 @@ export const Profile = [
       link: "/upgrade",
     },
     {
-      name: "Setting",
-      link: "/setting",
+      name: "Settings",
+      link: "/dashboard/settings",
     },
     {
       name: "Refer and Earn",

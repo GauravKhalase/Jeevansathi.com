@@ -17,11 +17,11 @@ const UploadPhotosNavbar = () => {
               <img className="h-[64px] m-auto" src={logo} alt="" />
             </div>
 
-            <div className="flex flex-row justify-center items-center gap-8">
+            <div className="flex flex-row justify-center items-center gap-12">
               {NavbarThree.map((ele, index) => {
                 return (
                   <Link to={ele.link}>
-                    <div className="  text-white text-sm uppercase sans-serif font-thin">
+                    <div className="  text-white text-sm uppercase font-thin tracking-wide ">
                       {ele.name}
                     </div>
                   </Link>
@@ -30,7 +30,7 @@ const UploadPhotosNavbar = () => {
             </div>
           </div>
 
-          <div className="flex flex-row justify-center items-center gap-8 px-8">
+          <div className="flex flex-row justify-center items-center gap-10 px-8">
             <div className="text-white text-lg ">
               <SlBell />
             </div>
@@ -65,7 +65,9 @@ const UploadPhotosNavbar = () => {
                   </Link>
                 );
               })}
-              <div className="text-center">Sign out</div>
+              <Link to="/">
+                <div className="">Sign out</div>
+              </Link>
             </div>
           )}
         </div>
