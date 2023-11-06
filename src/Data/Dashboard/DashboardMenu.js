@@ -13,7 +13,7 @@ export const DashboardMenu = [
     },
     {
       name: "Phonebook",
-      link: "/dashboard/Phonebook",
+      link: "/dashboard/phonebook",
     },
     {
       name: "Account & Settings",

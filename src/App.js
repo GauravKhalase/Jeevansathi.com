@@ -44,7 +44,7 @@ function App() {
         <Route path="/dashboard/settings" element={<Dashboard />} />
         <Route path="/dashboard/blocked-profiles" element={<Dashboard />} />
         <Route path="/dashboard/notifications" element={<Dashboard />} />
-        <Route path="/dashboard/Phonebook" element={<Dashboard />} />
+        <Route path="/dashboard/phonebook" element={<Dashboard />} />
         <Route path="/upgrade" element={<Upgrade />} />
         <Route path="/astrology-services" element={<AstrologyServices />} />
         <Route path="/refer-and-earn" element={<ReferAndEarn />} />

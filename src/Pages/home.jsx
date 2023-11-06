@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import home_bg from "../Assets/Home/cover_img_free_chat.png";
 import Navbar from '../Components/Common/Navbar';
 import SectionOne from '../Components/Home/SectionOne';
@@ -15,11 +15,15 @@ import Footer from '../Components/Common/Footer';
 
 
 const Home = () => {
+
+const [show, setShow] = useState(true);
+
   return (
     <div>
         <img className='absolute z-0 w-[100%] h-[622px]' src={home_bg} alt="" />
         <div className='w-[990px] flex flex-col justify-center item-center mx-auto'>
           <Navbar margin={"top-0"}/>
+          {/* <div className={`pt-40 relative z-90 ${show ? "visible":"invisible"}`}>lorem50</div> */}
           <SectionOne/>
           <SectionTwo />
           <SectionThree/>
