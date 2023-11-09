@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import home_bg from "../Assets/Home/cover_img_free_chat.png";
 import Navbar from '../Components/Common/Navbar';
 import SectionOne from '../Components/Home/SectionOne';
@@ -15,8 +15,6 @@ import Footer from '../Components/Common/Footer';
 
 
 const Home = () => {
-
-const [show, setShow] = useState(true);
 
   return (
     <div>

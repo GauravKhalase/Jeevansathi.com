@@ -1,19 +1,18 @@
 import React from "react";
 import NavbarThree from "./NavbarThree";
-import bg from "../../Assets/Help/bg-image.jpg";
-import { Link } from "react-router-dom";
+import bg from "../../Assets/Images/bg-image.jpg";
 
-const UploadPhotosHeader = ({ header }) => {
+const UploadPhotosHeader = ({height}) => {
   return (
     <div>
-      <div className=" bg-[#e7e6e6] h-[190px] ">
+      <div className=" bg-[#e7e6e6]">
         <img
-          className="z-20 absolute w-[100vw] h-[200px] backdrop-blur-sm "
+          className={`z-20 absolute w-[100vw] ${height} backdrop-blur-sm`}
           src={bg}
           alt=""
         />
 
-        <div className="w-[990px] flex flex-col justify-center item-center mx-auto">
+        <div className="w-[990px] flex flex-col justify-center item-center mx-auto ">
           <NavbarThree />
         </div>
       </div>

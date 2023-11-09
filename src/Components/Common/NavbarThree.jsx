@@ -10,7 +10,7 @@ const UploadPhotosNavbar = () => {
   const [menu, setMenu] = useState(false);
   return (
     <div>
-      <div className="relative top-9 z-50 w-[990px] h-[64px] bg-[#36495c] mx-auto ">
+      <div className="relative top-10 z-50 w-[990px] h-[64px] bg-[#36495c] mx-auto ">
         <div className="flex flex-row justify-between">
           <div className="flex flex-row gap-8">
             <div className="w-[165px] bg-white">

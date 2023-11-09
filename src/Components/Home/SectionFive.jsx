@@ -1,6 +1,4 @@
 import React from "react";
-import { AiOutlineCheckCircle } from "react-icons/ai";
-import { RxCrossCircled } from "react-icons/rx";
 import { Membership } from "../../Data/Membership";
 
 const SectionFive = () => {

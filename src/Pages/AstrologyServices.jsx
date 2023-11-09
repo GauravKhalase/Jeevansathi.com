@@ -1,17 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import astro from "../Assets/Images/astro_cover.png";
 import NavbarThree from "../Components/Common/NavbarThree";
-import DatePicker from "react-datepicker";
+// import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import RedButton from "../Components/Astrology/RedButton";
 import Header from "../Components/Astrology/Header";
 import { FirstCardData } from "../Data/Astrology/FirstCredData";
 import { SecondCardData } from "../Data/Astrology/SecondCardData";
 import Image from "../Assets/Images/astro_star.png";
-import { Button } from "@material-tailwind/react";
 
 const AstrologyServices = () => {
-  const [startDate, setStartDate] = useState(new Date());
+  // const [startDate, setStartDate] = useState(new Date());
 
   return (
     <div className="">

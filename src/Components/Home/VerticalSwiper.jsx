@@ -1,14 +1,11 @@
-import React, { useRef, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Mousewheel, Pagination } from "swiper/modules";
+import React from "react";
+import { Swiper } from "swiper/react";
+import { Mousewheel, Pagination } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
 
 import "./VerticalSwiper.css";
-import ImageOne from "../../Assets/Home/match-hour.svg";
-import ImageTwo from "../../Assets/Home/voice-call.svg";
-import ImageThree from "../../Assets/Home/video-profile.svg";
 
 const VerticalSwiper = () => {
   return (

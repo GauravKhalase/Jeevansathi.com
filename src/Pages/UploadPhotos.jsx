@@ -13,8 +13,8 @@ import { Link } from "react-router-dom";
 const UploadPhotos = () => {
   return (
     <div className="absolute w-full pb-[100px] bg-[#e7e6e6]">
-      <UploadPhotosHeader />
-      <div className="w-[990px] mx-auto flex flex-col justify-center">
+      <UploadPhotosHeader height="h-[190px]"/>
+      <div className="w-[990px] mx-auto flex flex-col justify-center mt-[120px]">
         <Link to="/dashboard/matches">
         <div className="text-right text-xs underline pt-4">
           I will do this later

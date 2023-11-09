@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Matches from "./Matches";
+import Matches from "./Matches"; 
 import Activity from "./Activity";
 import Search from "./Search";
 import Messanger from "./Messanger";

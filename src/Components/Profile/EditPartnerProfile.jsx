@@ -1,10 +1,5 @@
 import React from "react";
-import { FiFilter } from "react-icons/fi";
 import { RiUserSettingsLine } from "react-icons/ri";
-import { FiCheck } from "react-icons/fi";
-import { BiPhotoAlbum } from "react-icons/bi";
-import { BsThreeDotsVertical } from "react-icons/bs";
-import Title from "./Title";
 import { MdEdit } from "react-icons/md";
 
 const EditPartnerProfile = () => {

@@ -12,6 +12,7 @@ import Upgrade from "./Pages/Upgrade";
 import ReferAndEarn from "./Pages/ReferAndEarn";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import SuccessStories from "./Pages/SuccessStories";
+import Settings from "./Pages/Settings";
 
 function App() {
   return (
@@ -41,10 +42,15 @@ function App() {
         <Route path="/dashboard/activity" element={<Dashboard />} />
         <Route path="/dashboard/search" element={<Dashboard />} />
         <Route path="/dashboard/messenger" element={<Dashboard />} />
-        <Route path="/dashboard/settings" element={<Dashboard />} />
         <Route path="/dashboard/blocked-profiles" element={<Dashboard />} />
         <Route path="/dashboard/notifications" element={<Dashboard />} />
         <Route path="/dashboard/phonebook" element={<Dashboard />} />
+        <Route path="/dashboard/settings" element={<Dashboard />} />
+        <Route path="/settings/profile-visibility" element={<Settings/>} />
+        <Route path="/settings/alert-manager" element={<Settings/>} /> 
+        <Route path="/settings/hide-profile" element={<Settings/>} />
+        <Route path="/settings/delete-profile" element={<Settings/>} />
+        <Route path="/settings/change-password" element={<Settings/>} />
         <Route path="/upgrade" element={<Upgrade />} />
         <Route path="/astrology-services" element={<AstrologyServices />} />
         <Route path="/refer-and-earn" element={<ReferAndEarn />} />

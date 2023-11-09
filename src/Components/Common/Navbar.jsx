@@ -20,7 +20,7 @@ const Navbar = ({margin}) => {
   ];
 
   return (
-    <div className={`fixed ${margin} z-50 w-[990px] h-[64px] bg-[#334759] mx-auto flex flex-row justify-between `}>
+    <div className={`${margin} z-50 w-[990px] h-[64px] bg-[#334759] mx-auto flex flex-row justify-between `}>
       <div className="flex flex-row justify-between gap-8">
         <div className="w-[165px] bg-white flex justify-center items-center ">
           <img className="h-[64px] m-auto" src={logo} alt="" />
