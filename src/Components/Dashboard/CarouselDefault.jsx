@@ -278,6 +278,7 @@ export function CarouselDefault() {
             </div>
           </div>
         </SwiperSlide>
+        
       </Swiper>
     </>
   );
