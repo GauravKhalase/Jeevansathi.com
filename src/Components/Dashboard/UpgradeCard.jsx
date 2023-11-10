@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 
 const UpgradeCard = () => {
   return (
-    <div on className="sticky top-24 w-[280px] h-[500px] bg-white border-[0.5px] border-gray-200 rounded-lg px-8 py-8 flex flex-col gap-6 shadow-sm">
-      <div className="text-base text-center font font-bold text-gray-700 tracking-wide">
+    <div on className="sticky top-24 w-[280px] h-[490px] bg-white border-[0.5px] border-gray-200 rounded-lg px-8 py-8 flex flex-col gap-6 shadow-sm">
+      <div className="text-base text-center font font-bold text-gray-800 tracking-wide">
         You are <span className="text-[#d8465c]">missing</span> out on the
         premium benefits!
       </div>
@@ -40,8 +40,8 @@ const UpgradeCard = () => {
         </div>
       </div>
       <div>
-        <p className="text-gray-600 tracking-wide font-semibold text-center pb-2">Flat 61% OFF till 31 Oct</p>
-        <Link to="/upgrade"><button className="flex flex-row justify-center items-center gap-2 text-white text-base font-semibold tra bg-[#d8465c] rounded-lg mx-auto w-full py-2">Upgrade now <AiOutlineArrowRight/></button></Link>
+        <p className="text-gray-800 tracking-wide font-semibold text-center pb-2">Flat 61% OFF till 31 Oct</p>
+        <Link to="/upgrade"><button className="flex flex-row justify-center items-center gap-2 text-white text-base font-semibold bg-[#d8465c] rounded-lg mx-auto w-full py-2">Upgrade now <AiOutlineArrowRight/></button></Link>
         
       </div>
     </div>

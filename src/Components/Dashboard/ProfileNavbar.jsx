@@ -18,7 +18,7 @@ const ProfileNavbar = ({ menu, setMenu }) => {
               <img className="h-[72px]" src={Logo} alt="" />
             </Link>
           </div>
-          <div className="flex flex-row justify-center items-center gap-9 text-[22px] font-thin text-gray-500">
+          <div className="flex flex-row justify-center items-center gap-8 text-[22px] font-thin text-gray-600">
             <Link to="/dashboard/profile">
             <AiOutlineUser />
 

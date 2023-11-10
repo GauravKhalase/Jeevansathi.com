@@ -52,12 +52,11 @@ const Settings = () => {
       <div className=" mt-[88px] w-[990px] mx-auto flex flex-col justify-center">
         <div className="flex flex-row justify-around items-center bg-white">
           {settings.map((items) => {
-            return <div className={`   ${items.id === 5 ? "":"border-r-2 border-gray-200"} `} key={items.id}>
+            return <div className={`   ${items.id === 5 ? "":"border-r-2 border-gray-300"} `} key={items.id}>
               <Link to={items.link}>
                 <div className={` flex flex-col justify-center items-center text-base tracking-wide text-gray-800 font-thin py-3 w-[196px]`}>{items.title}</div>
               </Link>
               {token === items.token ? <div className="w-full h-[1.5px] bg-gray-800"></div>:<div className="w-full h-[1px]"></div>}
-              
             </div>;
           })}
         </div>

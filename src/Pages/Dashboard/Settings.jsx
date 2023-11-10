@@ -40,10 +40,10 @@ const Settings = () => {
   return (
     <div className="min-h-[600px]">
       <DashboardPagesHeader page="Account & Settings" />
-      <div className="text-md font-sans font-medium text-gray-500 text-center tracking-wider mb-16 -mt-5">
+      <div className="text-md font-sans font-medium text-gray-600 text-center tracking-wider mb-16 -mt-5">
         Update these details to get suitable matches
       </div>
-      <div className="text-xs font-sans font-medium text-gray-500 text-left tracking-wide px-10 py-2">
+      <div className="text-xs font-sans font-medium text-gray-700 text-left tracking-wide px-10 py-2">
         Manage Account
       </div>
       <div className=" flex flex-col gap-3 px-10 ">
@@ -56,12 +56,12 @@ const Settings = () => {
               
             >
               <div className="flex flex-row justify-center items-center gap-4 ">
-                <div className="text-gray-500 text-2xl">{item.icon}</div>
-                <div className="text-lg font-sans font-semibold text-gray-500 text-center tracking-wide">
+                <div className="text-gray-700 text-2xl">{item.icon}</div>
+                <div className="text-[16px] font-sans font-semibold text-gray-700 text-center tracking-wider">
                   {item.title}
                 </div>
               </div>
-              <div className="text-gray-500 text-xl">
+              <div className="text-gray-700 text-xl">
                 <FiChevronRight />
               </div>
             </div></Link>

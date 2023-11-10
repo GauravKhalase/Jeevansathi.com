@@ -10,7 +10,7 @@ const DashboardPagesHeader = (props) => {
       <div onClick={() => navigate(-1)} className="w-[20px]">
         <FiChevronLeft color="#616161" fontSize={24}></FiChevronLeft>
       </div>
-      <div className="text-2xl font-semibold font-sans text-gray-700 tracking-wide">{props.page}</div>
+      <div className="text-2xl font-semibold font-sans text-gray-800 tracking-wider">{props.page}</div>
       <div className="w-[20px]"></div>
     </div>
   );
